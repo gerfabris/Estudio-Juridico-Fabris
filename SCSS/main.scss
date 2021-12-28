@@ -113,14 +113,14 @@ header{
         color: #ffff;
     }
 }
-    // Abre config Logo Estudio en header all pages
+// Abre config Logo Estudio en header all pages
 .header__logo {
     width: $logo-width;
     height: 100%;
     border-radius: 20pt;
     margin-bottom: 1em;
 }
-    // Cierra config Logo Estudio en header all pages
+// Cierra config Logo Estudio en header all pages
 //Cierra header index and all pages
 //Abre footer index and all pages
 footer{
@@ -172,12 +172,12 @@ footer{
 }
 //Cierra footer MobileFirst  index and all pages
 //Abre Responsive MF 'index'
-    //Abre config main 'index' MF
+//Abre config main 'index' MF
 .main__Index{
     @extend .main;
 }
-    //Cierra config main 'index' 
-    //Abre config section video 'index' MF
+//Cierra config main 'index' 
+//Abre config section video 'index' MF
 .section__Index-video{
     display: flex; 
     justify-content: center ;
@@ -188,8 +188,8 @@ footer{
     max-width: 88%;
     height: 100%;
 }
-    //cierra config section video 'index' MF
-    //Abre section servicios 'index' MF
+//cierra config section video 'index' MF
+//Abre section servicios 'index' MF
 .section__Index-servicios{
     @extend .flex__ColumnCenterAll;
     justify-content: space-around;
@@ -236,8 +236,8 @@ footer{
 .btnServ{
         margin: 1em;
 }
-    //cierra cardsIndex
-    //Cierra section servicios 'index' MF
+//cierra cardsIndex
+//Cierra section servicios 'index' MF
 //Abre Estilo Main BLOG Mobile First
 .main__Blog{
     @extend .main;
@@ -246,7 +246,7 @@ footer{
     @extend .flex__ColumnCenterAll;
     align-items: center;
 }
-    //Blog Banner 'blog'
+//Blog Banner 'blog'
 .banner{
     @extend .flex__Center;
     width: 100%;
@@ -261,7 +261,7 @@ footer{
     height: 100%;
     width: 100%;
 }
-    //Sección Publicaciones 'blog'
+//Sección Publicaciones 'blog'
 .main__Blog__Seccion-Articulos-a{
     text-decoration: none;
     color: map-get($map: $colores, $key: color-titulos1);
@@ -297,7 +297,7 @@ footer{
         cursor: pointer;
     }
 }
-    //Formulario 'blog'
+//Formulario 'blog'
 .h2__Formulario{
     @include margin__Espaciado(2em,2em);
     @include title;
@@ -391,7 +391,6 @@ footer{
     cursor: pointer;
 }
 //Cierra Cards Flip "Servicios"
-
 //Cierra Main Mobile First 'Servicios'
 //Abre Main Mobile First 'NOSOTROS'
 .main__Nosotros{
@@ -464,7 +463,6 @@ ol{
 .section__Nosotros__Miembro__ContenedorLink__ul {
     max-width: 400px;
 }
-
 //Abre contenedor link miembro 'Nosotros'
 .section__Nosotros__Miembro__ContenedorLink{
     @extend .flex__ColumnCenterAll;
@@ -628,14 +626,6 @@ ol{
         justify-content: space-around;
         align-content: center;
         width: 100%;
-    }
-    .activaModal{
-        width: 50%;
-        height: 50%;
-    }
-    //modal
-    .modal__container{
-        width: 75%;
     }
     //Cierra Media Main 'index' +768px
     //Abre Media Main 'Blog' +768px

@@ -711,15 +711,6 @@ ol ul {
     width: 100%;
   }
 
-  .activaModal {
-    width: 50%;
-    height: 50%;
-  }
-
-  .modal__container {
-    width: 75%;
-  }
-
   .main__Blog__Seccion-Articulos {
     display: flex;
     flex-direction: column;
