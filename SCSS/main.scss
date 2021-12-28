@@ -312,10 +312,14 @@ footer{
     @include title;
 }
 //Abre Cards Flip "Servcios"
+.container__servicios{
+    @include flex__ColumnCenterAll;
+}
 .container__flip{
     position: relative;
     width: 18rem;
     height: 25rem;
+    @include margin__Espaciado(1em,2em);
     perspective: 1000px;
     transform-style: preserve-3d;
     &:hover > .front__flip{
@@ -342,6 +346,7 @@ footer{
     transform-style: preserve-3d;
     transition: 2.5s cubic-bezier(0.4, 0.2, 0.2, 1);  
     overflow: auto;
+
 }
 .front__flip{
     transform: rotateY(0deg);
